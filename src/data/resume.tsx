@@ -7,7 +7,7 @@ import {
   Brain,
   BarChart3,
   Radio,
-  Spider,
+  Globe,
   ShieldCheck,
 } from "lucide-react";
 import { Python } from "@/components/ui/svgs/python";
@@ -68,7 +68,7 @@ export const DATA = {
     { name: "Data Modeling", icon: Database },
     { name: "Machine Learning", icon: Brain },
     { name: "Streamlit", icon: BarChart3 },
-    { name: "Web Scraping", icon: Spider },
+    { name: "Web Scraping", icon: Globe },
     { name: "Real-Time Streaming", icon: Radio },
     { name: "Data Validation", icon: ShieldCheck },
   ],
@@ -99,9 +99,7 @@ export const DATA = {
       },
     },
   },
-
   work: [],
-
   education: [
     {
       school: "University of Ilorin",
@@ -112,7 +110,6 @@ export const DATA = {
       end: "2023",
     },
   ],
-
   projects: [
     {
       title: "End-to-End Prediction Market Data Pipeline & Intelligence",
@@ -157,7 +154,6 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/Joystyxx/xora_intelligence",
           href: "https://xora-intelligence.streamlit.app/",
           icon: <Icons.globe className="size-3" />,
         },
@@ -214,6 +210,5 @@ export const DATA = {
       video: "",
     },
   ],
-
   hackathons: [],
 } as const;
