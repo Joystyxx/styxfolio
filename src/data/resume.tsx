@@ -25,7 +25,7 @@ export const DATA = {
   summary:
     "I design and ship data infrastructure that runs without me — automated ingestion, snapshot-aware pipelines, time-series data modeling, and ML deployment on top of engineered data. My work spans prediction markets, contributor intelligence, and large-scale web scraping, all delivered end-to-end with Python, PostgreSQL, GitHub Actions, and Streamlit.",
   avatarUrl: "/headshort.jpg",
-  ogImage: "https://github.com/Joystyxx.png",
+  ogImage: "/og-banner.png",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
     work: { order: 2, enabled: false, heading: "Work Experience", presentLabel: "Present" },
@@ -203,7 +203,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/real-estate-table.png",
       video: "",
     },
     {
@@ -214,17 +214,15 @@ export const DATA = {
       description:
         "Real-time streaming pipeline ingesting live crypto trades via WebSockets, running windowed aggregations and anomaly detection, and serving alerts to a live dashboard.",
       technologies: [
-        [
-          "Apache Kafka",
-          "Apache Flink",
-          "ClickHouse",
-          "Real-Time Streaming",
-          "Python",
-          "Docker",
-        ],
+        "Apache Kafka",
+        "Apache Flink",
+        "ClickHouse",
+        "Real-Time Streaming",
+        "Python",
+        "Docker",
       ],
       links: [],
-      image: "",
+      image: "/crypto-anomaly.png",
       video: "",
     },
   ],
