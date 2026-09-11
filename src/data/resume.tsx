@@ -17,14 +17,14 @@ import { Docker } from "@/components/ui/svgs/docker";
 export const DATA = {
   name: "Olawale Afolayan",
   initials: "OA",
-  url: "https://olawale-afolayan-styx-ai.vercel.app",
+  url: "https://styxfolio.vercel.app",
   location: "Lagos, Nigeria",
   locationLink: "https://www.google.com/maps/place/lagos+nigeria",
   description:
     "Data Engineer building end-to-end pipelines, automated ETL workflows, and ML-powered analytics systems that turn raw data into decisions.",
   summary:
     "I design and ship data infrastructure that runs without me — automated ingestion, snapshot-aware pipelines, time-series data modeling, and ML deployment on top of engineered data. My work spans prediction markets, contributor intelligence, and large-scale web scraping, all delivered end-to-end with Python, PostgreSQL, GitHub Actions, and Streamlit.",
-  avatarUrl: "https://github.com/Joystyxx.png",
+  avatarUrl: "/headshort.jpg",
   ogImage: "https://github.com/Joystyxx.png",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
@@ -149,7 +149,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/linera.png",
       video: "",
     },
     {
@@ -179,7 +179,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/xora.png",
       video: "",
     },
     {
@@ -214,12 +214,14 @@ export const DATA = {
       description:
         "Real-time streaming pipeline ingesting live crypto trades via WebSockets, running windowed aggregations and anomaly detection, and serving alerts to a live dashboard.",
       technologies: [
-        "Apache Kafka",
-        "Apache Flink",
-        "ClickHouse",
-        "Real-Time Streaming",
-        "Python",
-        "Docker",
+        [
+          "Apache Kafka",
+          "Apache Flink",
+          "ClickHouse",
+          "Real-Time Streaming",
+          "Python",
+          "Docker",
+        ],
       ],
       links: [],
       image: "",
