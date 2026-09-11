@@ -17,9 +17,9 @@ import { Docker } from "@/components/ui/svgs/docker";
 export const DATA = {
   name: "Olawale Afolayan",
   initials: "OA",
-  url: "https://styxfolio.vercel.app",
-  location: "Ilorin, Nigeria",
-  locationLink: "https://www.google.com/maps/place/ilorin+nigeria",
+  url: "https://olawale-afolayan-styx-ai.vercel.app",
+  location: "Lagos, Nigeria",
+  locationLink: "https://www.google.com/maps/place/lagos+nigeria",
   description:
     "Data Engineer building end-to-end pipelines, automated ETL workflows, and ML-powered analytics systems that turn raw data into decisions.",
   summary:
@@ -29,7 +29,7 @@ export const DATA = {
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
     work: { order: 2, enabled: false, heading: "Work Experience", presentLabel: "Present" },
-    education: { order: 3, enabled: true, heading: "Education" },
+    education: { order: 3, enabled: true, heading: "Education & Certifications" },
     skills: { order: 4, enabled: true, heading: "Skills" },
     projects: {
       order: 5,
@@ -108,6 +108,22 @@ export const DATA = {
       logoUrl: "https://www.google.com/s2/favicons?domain=unilorin.edu.ng&sz=128",
       start: "2018",
       end: "2023",
+    },
+    {
+      school: "EduREKA",
+      href: "https://www.edureka.co",
+      degree: "Data Science & Machine Learning Internship Certificate",
+      logoUrl: "https://www.google.com/s2/favicons?domain=edureka.co&sz=128",
+      start: "2023",
+      end: "2024",
+    },
+    {
+      school: "University of Ibadan (CSU) & ARPTechnology Professional Institute",
+      href: "https://www.ui.edu.ng",
+      degree: "Project Management Professional Certificate",
+      logoUrl: "https://www.google.com/s2/favicons?domain=ui.edu.ng&sz=128",
+      start: "2023",
+      end: "2024",
     },
   ],
   projects: [
