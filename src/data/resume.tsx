@@ -157,7 +157,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: https://github.com/Joystyxx/xora_intelligence,
+          href: "https://github.com/Joystyxx/xora_intelligence",
           href: "https://xora-intelligence.streamlit.app/",
           icon: <Icons.globe className="size-3" />,
         },
