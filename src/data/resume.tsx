@@ -24,7 +24,7 @@ export const DATA = {
     "Data Engineer building end-to-end pipelines, automated ETL workflows, and ML-powered analytics systems that turn raw data into decisions.",
   summary:
     "I design and ship data infrastructure that runs without me — automated ingestion, snapshot-aware pipelines, time-series data modeling, and ML deployment on top of engineered data. My work spans prediction markets, contributor intelligence, and large-scale web scraping, all delivered end-to-end with Python, PostgreSQL, GitHub Actions, and Streamlit.",
-  avatarUrl: "/headshort.jpg",
+  avatarUrl: "/headshot.png",
   ogImage: "/og-banner.png",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
