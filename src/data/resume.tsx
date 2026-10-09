@@ -9,6 +9,9 @@ import {
   Radio,
   Globe,
   ShieldCheck,
+  Cloud,
+  Layers,
+  GitBranch,
 } from "lucide-react";
 import { Python } from "@/components/ui/svgs/python";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
@@ -63,6 +66,9 @@ export const DATA = {
     { name: "Python", icon: Python },
     { name: "PostgreSQL", icon: Postgresql },
     { name: "Docker", icon: Docker },
+    { name: "AWS", icon: Cloud },
+    { name: "dbt", icon: Layers },
+    { name: "Dagster", icon: GitBranch },
     { name: "GitHub Actions", icon: Workflow },
     { name: "ETL / ELT", icon: Repeat },
     { name: "Data Modeling", icon: Database },
@@ -150,6 +156,39 @@ export const DATA = {
         },
       ],
       image: "/linera.png",
+      video: "",
+    },
+    {
+      title: "Nigeria Grid & Mini-Grid Intelligence Platform",
+      href: "http://51.21.191.10:8501",
+      dates: "2026",
+      active: true,
+      description:
+        "Built an end-to-end data platform ingesting 944K records from 8 Nigerian energy sources into PostgreSQL and TimescaleDB, transformed via 16 dbt models with 27 schema tests. Deployed XGBoost classifiers for grid instability prediction and a PuLP linear program optimising battery storage dispatch across 12 deployment scenarios. Scored 154,319 settlements for solar mini-grid viability and delivered a 6-page Streamlit dashboard, orchestrated with Dagster and deployed to AWS EC2.",
+      technologies: [
+        "Python",
+        "PostgreSQL + TimescaleDB",
+        "dbt",
+        "Dagster",
+        "XGBoost",
+        "PuLP Optimisation",
+        "Docker Compose",
+        "AWS EC2",
+        "Streamlit",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "http://51.21.191.10:8501",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Joystyxx/nigeria-grid-intelligence",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/nigeria-grid.png",
       video: "",
     },
     {
