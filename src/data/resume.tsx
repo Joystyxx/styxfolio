@@ -191,6 +191,41 @@ export const DATA = {
       image: "/nigeria-grid.png",
       video: "",
     },
+
+    {
+      title: "MongoDB-Backed Customer Churn ML Pipeline",
+      href: "https://telco-churn-predictor-mdb.streamlit.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Built an end-to-end ML pipeline ingesting raw customer data into MongoDB, with $facet aggregation pipelines for business insights. Engineered a Scikit-Learn ColumnTransformer for feature preprocessing and benchmarked an XGBoost baseline against a TensorFlow/Keras Neural Network. Demonstrated senior-level engineering by logging model metrics and hyperparameters back into MongoDB for ML lifecycle tracking, and deployed a live Streamlit inference UI.",
+      technologies: [
+        "Python",
+        "MongoDB",
+        "Scikit-Learn",
+        "TensorFlow / Keras",
+        "XGBoost",
+        "Docker",
+        "Streamlit",
+        "MLOps",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://telco-churn-predictor-mdb.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Joystyxx/churn-mongo-pipeline",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/telco-churn.png",
+      video: "",
+    },
+
+  
     {
       title: "Marketplace Bounty & Contributor Intelligence System",
       href: "https://xora-intelligence.streamlit.app/",
