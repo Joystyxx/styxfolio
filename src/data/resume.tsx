@@ -191,7 +191,6 @@ export const DATA = {
       image: "/nigeria-grid.png",
       video: "",
     },
-
     {
       title: "MongoDB-Backed Customer Churn ML Pipeline",
       href: "https://telco-churn-predictor-mdb.streamlit.app/",
@@ -224,8 +223,6 @@ export const DATA = {
       image: "/telco-churn.png",
       video: "",
     },
-
-  
     {
       title: "Marketplace Bounty & Contributor Intelligence System",
       href: "https://xora-intelligence.streamlit.app/",
